@@ -84,7 +84,7 @@ public class XmlParse extends DefaultHandler {
 	}
 	public void characters(char ch[], int start, int length)
 			throws SAXException {
-		System.out.println("characters");
+		//System.out.println("characters");
 	}
 	public String[] xmlParse(String filePath) {
 		File file = new File(filePath);
